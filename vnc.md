@@ -52,7 +52,20 @@ ssh -L 5901:localhost:5901 username@server_ip
 localhost:5901
 ```
 
+### 6.2 Connecting using  RealVNCViewer Installer
 
+1. **Download RealVNCViewer Installer:**
+
+   Visit the [TightVNC download page](https://www.realvnc.com/en/connect/download/viewer/) and download the TightVNC Installer for Windows.
+
+2. **Run the Installer:**
+
+   Locate the downloaded installer file (usually a `.exe` file) and double-click to run it. Follow the on-screen instructions to install TightVNC.
+
+3. **Connect to your VNC server and Enter password set during installation**
+```bash
+localhost:5901
+```
    
    
 
