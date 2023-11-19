@@ -14,13 +14,20 @@ This guide provides step-by-step instructions for downloading, installing, and s
 Visit the [PyCharm download page](https://www.jetbrains.com/pycharm/download/) and download the Community Edition.
 
 ### 1.2 Extract the Tarball
-
 Open a terminal and navigate to the directory where the PyCharm tarball was downloaded.
 
 ```bash
 tar -xzf pycharm-community-*.tar.gz
+```
 
 ### 1.3 Move PyCharm to /opt/
 
 ```bash
 sudo mv pycharm-community-* /opt/pycharm-community
+```
+### Create a Symlink
+
+```bash
+sudo ln -s /opt/pycharm-community-*/bin/pycharm.sh /usr/local/bin/pycharm-community
+
+```
