@@ -30,6 +30,33 @@ sudo nano ~/.vnc/xstartup
 gnome-session --session=gnome-classic &
 ```
 
+## 6. Connect to GNOME Classic Desktop from Windows using SSH Tunneling
+
+```bash
+ssh -L 5901:localhost:5901 username@server_ip
+```
+- Note: remeber to change your username and set appropriate your sever_ip
+
+### 6.1 Connecting using  TightVNC Installer
+
+1. **Download TightVNC Installer:**
+
+   Visit the [TightVNC download page](https://www.tightvnc.com/download.php) and download the TightVNC Installer for Windows.
+
+2. **Run the Installer:**
+
+   Locate the downloaded installer file (usually a `.exe` file) and double-click to run it. Follow the on-screen instructions to install TightVNC.
+
+3. **Connect to your VNC server and Enter password set during installation**
+```bash
+localhost:5901
+```
+
+
+   
+   
+
+
 
 
 
