@@ -19,3 +19,8 @@ Open a terminal and navigate to the directory where the PyCharm tarball was down
 
 ```bash
 tar -xzf pycharm-community-*.tar.gz
+
+### 1.3 Move PyCharm to /opt/
+
+```bash
+sudo mv pycharm-community-* /opt/pycharm-community
