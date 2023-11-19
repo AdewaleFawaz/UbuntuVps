@@ -25,9 +25,18 @@ tar -xzf pycharm-community-*.tar.gz
 ```bash
 sudo mv pycharm-community-* /opt/pycharm-community
 ```
-### Create a Symlink
+### 1.4 Create a Symlink
 
 ```bash
 sudo ln -s /opt/pycharm-community-*/bin/pycharm.sh /usr/local/bin/pycharm-community
 
 ```
+### 1.5   Launch PyCharm
+
+```bash
+pycharm-community
+
+```
+
+
+
