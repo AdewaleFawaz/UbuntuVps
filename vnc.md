@@ -19,7 +19,7 @@ vncserver :1
 ```bash
 vncpasswd
 ```
-- I already set a password which is: @freedata
+- I already set a password
 
 ### 5.4 Configure VNC Session
 ```bash
